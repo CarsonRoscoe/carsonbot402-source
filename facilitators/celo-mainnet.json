@@ -1,0 +1,21 @@
+{
+  "id": "celo-mainnet",
+  "name": "Celo Facilitator (mainnet)",
+  "operator": "Celo",
+  "website": "https://celo.org",
+  "docs": "https://docs.x402.org/dev-tools/facilitators",
+  "baseUrl": "https://api.x402.celo.org",
+  "networks": [
+    "eip155:42220"
+  ],
+  "assets": [
+    "USDC",
+    "USD₮",
+    "USA₮",
+    "wARS",
+    "wBRL",
+    "wCOP"
+  ],
+  "source": "https://docs.x402.org/dev-tools/facilitators",
+  "addedAt": "2026-10-23"
+}

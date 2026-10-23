@@ -1,0 +1,15 @@
+{
+  "id": "solvador",
+  "name": "Solvador",
+  "operator": "Solvador",
+  "website": "https://solvador.com",
+  "docs": "https://docs.x402.org/dev-tools/facilitators",
+  "baseUrl": "https://api.solvador.com",
+  "networks": [
+    "evm",
+    "solana",
+    "near"
+  ],
+  "source": "https://factline.dev/x402/facilitators",
+  "addedAt": "2026-10-23"
+}

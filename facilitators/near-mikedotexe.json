@@ -1,0 +1,17 @@
+{
+  "id": "near-mikedotexe",
+  "name": "NEAR x402 Facilitator (mikedotexe)",
+  "operator": "mikedotexe",
+  "website": "https://mikedotexe.com",
+  "docs": "https://docs.x402.org/dev-tools/facilitators",
+  "baseUrl": "https://x402.mikedotexe.com",
+  "networks": [
+    "near",
+    "eip155:8453"
+  ],
+  "assets": [
+    "USDC"
+  ],
+  "source": "https://docs.x402.org/dev-tools/facilitators",
+  "addedAt": "2026-10-23"
+}

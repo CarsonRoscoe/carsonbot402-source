@@ -1,0 +1,13 @@
+{
+  "id": "x402-org",
+  "name": "x402.org (public testnet)",
+  "operator": "x402 Foundation",
+  "website": "https://x402.org",
+  "docs": "https://docs.x402.org/core-concepts/network-and-token-support",
+  "baseUrl": "https://x402.org/facilitator",
+  "networks": [
+    "testnet"
+  ],
+  "source": "https://docs.x402.org/core-concepts/network-and-token-support#x402org-facilitator",
+  "addedAt": "2026-10-23"
+}

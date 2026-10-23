@@ -1,0 +1,14 @@
+{
+  "id": "stellar-oz-testnet",
+  "name": "Built on Stellar (OpenZeppelin channels, testnet)",
+  "operator": "OpenZeppelin / Stellar",
+  "website": "https://developers.stellar.org",
+  "docs": "https://developers.stellar.org/docs/build/agentic-payments/x402/built-on-stellar",
+  "baseUrl": "https://channels.openzeppelin.com/x402/testnet",
+  "networks": [
+    "stellar:testnet"
+  ],
+  "source": "https://developers.stellar.org/docs/build/agentic-payments/x402/built-on-stellar",
+  "addedAt": "2026-10-23",
+  "authRequired": true
+}

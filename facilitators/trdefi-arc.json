@@ -1,0 +1,17 @@
+{
+  "id": "trdefi-arc",
+  "name": "TRDEFI Arc Facilitator",
+  "operator": "TRDEFI",
+  "website": "https://github.com/TRDEFI",
+  "docs": "https://github.com/TRDEFI/arc-x402-facilitator",
+  "baseUrl": "https://trdefi-arc-facilitator.netlify.app",
+  "networks": [
+    "eip155:5042"
+  ],
+  "assets": [
+    "USDC"
+  ],
+  "openSourceRepo": "https://github.com/TRDEFI/arc-x402-facilitator",
+  "source": "https://github.com/TRDEFI/arc-x402-facilitator",
+  "addedAt": "2026-10-23"
+}

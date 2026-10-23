@@ -1,0 +1,10 @@
+{
+  "id": "meridian",
+  "name": "Meridian",
+  "operator": "Meridian (MRDN)",
+  "website": "https://mrdn.finance",
+  "docs": "https://docs.mrdn.finance/api-reference/next-js-middleware",
+  "baseUrl": "https://api.mrdn.finance/v1",
+  "source": "https://docs.mrdn.finance/api-reference/next-js-middleware",
+  "addedAt": "2026-10-23"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "celo-sepolia",
+  "name": "Celo Facilitator (Sepolia)",
+  "operator": "Celo",
+  "website": "https://celo.org",
+  "docs": "https://docs.x402.org/dev-tools/facilitators",
+  "baseUrl": "https://api.x402.sepolia.celo.org",
+  "networks": [
+    "eip155:11142220"
+  ],
+  "source": "https://docs.x402.org/dev-tools/facilitators",
+  "addedAt": "2026-10-23"
+}

@@ -1,0 +1,64 @@
+name: Add or update facilitator
+description: Propose a new x402 facilitator entry or correct metadata for an existing one
+title: "[facilitator] "
+labels: ["facilitator"]
+body:
+  - type: markdown
+    value: |
+      Thanks for helping keep the CarsonBot402 input registry accurate. Listing here is **not** an endorsement.
+      Prefer opening a pull request with `facilitators/<id>.json` if you can; use this issue when you need maintainer help.
+  - type: input
+    id: id
+    attributes:
+      label: Facilitator ID (slug)
+      description: Lowercase kebab-case, e.g. `my-network`. Must match the JSON filename.
+      placeholder: my-facilitator
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Display name
+    validations:
+      required: true
+  - type: input
+    id: operator
+    attributes:
+      label: Operator / organization
+  - type: input
+    id: baseUrl
+    attributes:
+      label: Base URL
+      description: Public HTTPS API origin (no trailing slash). GET {baseUrl}/supported must return 200 JSON.
+    validations:
+      required: true
+  - type: checkboxes
+    id: authRequired
+    attributes:
+      label: Authentication
+      options:
+        - label: GET /supported requires credentials (set authRequired in JSON)
+  - type: input
+    id: source
+    attributes:
+      label: Public source link
+      description: Docs page, repo, or announcement that describes this facilitator
+    validations:
+      required: true
+  - type: textarea
+    id: networks
+    attributes:
+      label: Networks / assets claimed (optional)
+      description: Free text; PR authors can structure as JSON arrays in the file
+  - type: input
+    id: contact
+    attributes:
+      label: Contact (optional)
+      description: Support URL or email for operators
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Acknowledgement
+      options:
+        - label: I understand this registry is used for automated probing and documentation indexing, not as a curated endorsement list
+          required: true
