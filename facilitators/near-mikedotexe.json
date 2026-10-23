@@ -5,7 +5,6 @@
   "website": "https://mikedotexe.com",
   "docs": "https://docs.x402.org/dev-tools/facilitators",
   "baseUrl": "https://x402.mikedotexe.com",
-  "supportedPath": "/supported",
   "networks": [
     "near",
     "eip155:8453"

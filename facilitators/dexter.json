@@ -5,7 +5,6 @@
   "website": "https://dexter.cash",
   "docs": "https://docs.dexter.cash/docs/facilitator-and-chains/partner-quickstart/",
   "baseUrl": "https://x402.dexter.cash",
-  "supportedPath": "/supported",
   "networks": [
     "evm",
     "solana"

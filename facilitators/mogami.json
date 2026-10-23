@@ -5,7 +5,6 @@
   "website": "https://mogami.tech",
   "docs": "https://docs.x402.org/dev-tools/facilitators",
   "baseUrl": "https://facilitator.mogami.tech",
-  "supportedPath": "/supported",
   "networks": [
     "eip155:8453"
   ],

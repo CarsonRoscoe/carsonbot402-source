@@ -5,7 +5,6 @@
   "website": "https://celo.org",
   "docs": "https://docs.x402.org/dev-tools/facilitators",
   "baseUrl": "https://api.x402.sepolia.celo.org",
-  "supportedPath": "/supported",
   "networks": [
     "eip155:11142220"
   ],

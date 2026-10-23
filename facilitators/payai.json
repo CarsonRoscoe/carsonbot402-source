@@ -5,7 +5,6 @@
   "website": "https://payai.network",
   "docs": "https://docs.payai.network/x402/supported-networks",
   "baseUrl": "https://facilitator.payai.network",
-  "supportedPath": "/supported",
   "source": "https://docs.payai.network/x402/supported-networks",
   "addedAt": "2026-10-23"
 }

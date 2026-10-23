@@ -5,7 +5,6 @@
   "website": "https://x402.org",
   "docs": "https://docs.x402.org/core-concepts/network-and-token-support",
   "baseUrl": "https://x402.org/facilitator",
-  "supportedPath": "/supported",
   "networks": [
     "testnet"
   ],

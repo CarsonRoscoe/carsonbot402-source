@@ -5,7 +5,6 @@
   "website": "https://mrdn.finance",
   "docs": "https://docs.mrdn.finance/api-reference/next-js-middleware",
   "baseUrl": "https://api.mrdn.finance/v1",
-  "supportedPath": "/supported",
   "source": "https://docs.mrdn.finance/api-reference/next-js-middleware",
   "addedAt": "2026-10-23"
 }

@@ -5,7 +5,6 @@
   "website": "https://polygon.technology",
   "docs": "https://docs.x402.org/dev-tools/facilitators",
   "baseUrl": "https://x402.polygon.technology",
-  "supportedPath": "/supported",
   "networks": [
     "eip155:137",
     "eip155:80002"

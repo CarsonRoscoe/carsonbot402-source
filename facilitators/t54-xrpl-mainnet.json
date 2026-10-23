@@ -5,7 +5,6 @@
   "website": "https://t54.ai",
   "docs": "https://xrpl-x402.t54.ai/docs/quickstart",
   "baseUrl": "https://xrpl-facilitator-mainnet.t54.ai",
-  "supportedPath": "/supported",
   "networks": [
     "xrpl:mainnet"
   ],

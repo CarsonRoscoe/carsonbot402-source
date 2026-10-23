@@ -5,7 +5,7 @@
   "description": "Crowdsourced facilitator metadata consumed by CarsonBot402 weekly experiments.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "name", "baseUrl", "supportedPath", "source", "addedAt"],
+  "required": ["id", "name", "baseUrl", "source", "addedAt"],
   "properties": {
     "id": {
       "type": "string",
@@ -30,12 +30,9 @@
     },
     "baseUrl": {
       "type": "string",
-      "description": "Facilitator API origin (no trailing slash). Empty when self-hosted or URL is operator-specific."
-    },
-    "supportedPath": {
-      "type": "string",
-      "pattern": "^/.*",
-      "default": "/supported"
+      "format": "uri",
+      "pattern": "^https?://[^/]+\\S*[^/]$",
+      "description": "Public facilitator API origin (no trailing slash). GET {baseUrl}/supported must be reachable for listing."
     },
     "networks": {
       "type": "array",
@@ -70,10 +67,9 @@
       "format": "date",
       "description": "ISO date (YYYY-MM-DD) this entry was first added to the registry"
     },
-    "probe": {
+    "authRequired": {
       "type": "boolean",
-      "default": true,
-      "description": "When false, CarsonBot402 experiments skip automated HTTP probes (e.g. self-hosted base URL)"
+      "description": "When true, GET /supported requires credentials; CI may skip live probes with --skip-authed"
     }
   }
 }

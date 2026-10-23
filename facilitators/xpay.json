@@ -5,7 +5,6 @@
   "website": "https://xpay.sh",
   "docs": "https://docs.xpay.sh/en/x402-protocol/facilitator",
   "baseUrl": "https://facilitator.xpay.sh",
-  "supportedPath": "/supported",
   "networks": [
     "eip155:8453"
   ],

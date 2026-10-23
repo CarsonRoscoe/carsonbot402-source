@@ -5,7 +5,6 @@
   "website": "https://solvador.com",
   "docs": "https://docs.x402.org/dev-tools/facilitators",
   "baseUrl": "https://api.solvador.com",
-  "supportedPath": "/supported",
   "networks": [
     "evm",
     "solana",

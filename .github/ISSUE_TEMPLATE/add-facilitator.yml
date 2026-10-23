@@ -29,15 +29,15 @@ body:
     id: baseUrl
     attributes:
       label: Base URL
-      description: API origin with no trailing slash, or explain if self-hosted only
+      description: Public HTTPS API origin (no trailing slash). GET {baseUrl}/supported must return 200 JSON.
     validations:
       required: true
-  - type: input
-    id: supportedPath
+  - type: checkboxes
+    id: authRequired
     attributes:
-      label: Supported path
-      placeholder: /supported
-      value: /supported
+      label: Authentication
+      options:
+        - label: GET /supported requires credentials (set authRequired in JSON)
   - type: input
     id: source
     attributes:
