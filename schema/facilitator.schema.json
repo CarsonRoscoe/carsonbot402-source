@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/CarsonRoscoe/carsonbot402-source/schema/facilitator.schema.json",
+  "title": "x402 Facilitator registry entry",
+  "description": "Crowdsourced facilitator metadata consumed by CarsonBot402 weekly experiments.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "baseUrl", "supportedPath", "source", "addedAt"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "Stable slug; must match the filename facilitators/<id>.json"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "operator": {
+      "type": "string",
+      "minLength": 1
+    },
+    "website": {
+      "type": "string",
+      "format": "uri"
+    },
+    "docs": {
+      "type": "string",
+      "format": "uri"
+    },
+    "baseUrl": {
+      "type": "string",
+      "description": "Facilitator API origin (no trailing slash). Empty when self-hosted or URL is operator-specific."
+    },
+    "supportedPath": {
+      "type": "string",
+      "pattern": "^/.*",
+      "default": "/supported"
+    },
+    "networks": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "assets": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "openSourceRepo": {
+      "type": "string",
+      "format": "uri"
+    },
+    "contact": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "url": { "type": "string", "format": "uri" },
+        "email": { "type": "string", "format": "email" }
+      },
+      "anyOf": [{ "required": ["url"] }, { "required": ["email"] }]
+    },
+    "source": {
+      "type": "string",
+      "format": "uri",
+      "description": "Public documentation or announcement used to justify this listing"
+    },
+    "addedAt": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO date (YYYY-MM-DD) this entry was first added to the registry"
+    },
+    "probe": {
+      "type": "boolean",
+      "default": true,
+      "description": "When false, CarsonBot402 experiments skip automated HTTP probes (e.g. self-hosted base URL)"
+    }
+  }
+}

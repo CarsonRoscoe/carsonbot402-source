@@ -1,0 +1,14 @@
+{
+  "id": "mogami",
+  "name": "Mogami Facilitator",
+  "operator": "Mogami",
+  "website": "https://mogami.tech",
+  "docs": "https://docs.x402.org/dev-tools/facilitators",
+  "baseUrl": "https://facilitator.mogami.tech",
+  "supportedPath": "/supported",
+  "networks": [
+    "eip155:8453"
+  ],
+  "source": "https://docs.x402.org/dev-tools/facilitators",
+  "addedAt": "2026-10-23"
+}

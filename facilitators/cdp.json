@@ -1,0 +1,11 @@
+{
+  "id": "cdp",
+  "name": "Coinbase CDP Facilitator",
+  "operator": "Coinbase Developer Platform",
+  "website": "https://www.coinbase.com/developer-platform",
+  "docs": "https://docs.cdp.coinbase.com/x402/welcome",
+  "baseUrl": "https://api.cdp.coinbase.com/platform/v2/x402",
+  "supportedPath": "/supported",
+  "source": "https://docs.cdp.coinbase.com/x402/network-support",
+  "addedAt": "2026-10-23"
+}

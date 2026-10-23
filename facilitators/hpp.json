@@ -1,0 +1,15 @@
+{
+  "id": "hpp",
+  "name": "HPP Facilitator",
+  "operator": "HPP",
+  "website": "https://hpp.io",
+  "docs": "https://docs.x402.org/dev-tools/facilitators",
+  "baseUrl": "https://facilitator.hpp.io",
+  "supportedPath": "/supported",
+  "networks": [
+    "hpp-mainnet",
+    "hpp-sepolia"
+  ],
+  "source": "https://docs.x402.org/dev-tools/facilitators",
+  "addedAt": "2026-10-23"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "dexter",
+  "name": "Dexter",
+  "operator": "Dexter",
+  "website": "https://dexter.cash",
+  "docs": "https://docs.dexter.cash/docs/facilitator-and-chains/partner-quickstart/",
+  "baseUrl": "https://x402.dexter.cash",
+  "supportedPath": "/supported",
+  "networks": [
+    "evm",
+    "solana"
+  ],
+  "source": "https://docs.dexter.cash/docs/facilitator-and-chains/partner-quickstart/",
+  "addedAt": "2026-10-23"
+}

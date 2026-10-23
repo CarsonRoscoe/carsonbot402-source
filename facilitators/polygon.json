@@ -1,0 +1,15 @@
+{
+  "id": "polygon",
+  "name": "Polygon Facilitator",
+  "operator": "Polygon Labs",
+  "website": "https://polygon.technology",
+  "docs": "https://docs.x402.org/dev-tools/facilitators",
+  "baseUrl": "https://x402.polygon.technology",
+  "supportedPath": "/supported",
+  "networks": [
+    "eip155:137",
+    "eip155:80002"
+  ],
+  "source": "https://factline.dev/x402/facilitators",
+  "addedAt": "2026-10-23"
+}

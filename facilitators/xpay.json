@@ -1,0 +1,17 @@
+{
+  "id": "xpay",
+  "name": "X Pay (xpay.sh)",
+  "operator": "X Pay",
+  "website": "https://xpay.sh",
+  "docs": "https://docs.xpay.sh/en/x402-protocol/facilitator",
+  "baseUrl": "https://facilitator.xpay.sh",
+  "supportedPath": "/supported",
+  "networks": [
+    "eip155:8453"
+  ],
+  "assets": [
+    "USDC"
+  ],
+  "source": "https://docs.xpay.sh/en/x402-protocol/facilitator",
+  "addedAt": "2026-10-23"
+}

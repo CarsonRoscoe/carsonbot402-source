@@ -1,0 +1,15 @@
+{
+  "id": "corbits",
+  "name": "Corbits",
+  "operator": "Corbits",
+  "website": "https://corbits.dev",
+  "docs": "https://docs.x402.org/dev-tools/facilitators",
+  "baseUrl": "https://facilitator.corbits.dev",
+  "supportedPath": "/supported",
+  "networks": [
+    "evm",
+    "solana"
+  ],
+  "source": "https://docs.x402.org/dev-tools/facilitators",
+  "addedAt": "2026-10-23"
+}
